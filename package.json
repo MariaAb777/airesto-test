@@ -1,0 +1,23 @@
+{
+  "name": "airesto-booking",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit -p tsconfig.app.json && vite build",
+    "preview": "vite preview",
+    "typecheck": "vue-tsc -b --noEmit"
+  },
+  "dependencies": {
+    "@lucide/vue": "^1.16.0",
+    "vue": "^3.5.22"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "typescript": "~5.8.3",
+    "vite": "^8.0.12",
+    "vue-tsc": "^3.1.0"
+  }
+}

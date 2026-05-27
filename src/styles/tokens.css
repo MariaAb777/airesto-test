@@ -1,0 +1,134 @@
+:root,
+[data-theme='dark'] {
+  --bg-app: #121212;
+  --bg-nav: #1c1c1e;
+  --bg-chip: #262626;
+  --bg-chip-hover: #323232;
+  --bg-chip-active: #007aff;
+  --bg-grid: #121212;
+  --sticky-axis-bg: rgba(18, 18, 18, 0.88);
+  --text-primary: #ffffff;
+  --text-secondary: #8e8e93;
+  --text-muted: #636366;
+  --border: #2c2c2e;
+  --border-grid: #2c2c2e;
+  --scrollbar-size: 8px;
+  --scrollbar-track: #121212;
+  --scrollbar-thumb: #3a3a3c;
+  --scrollbar-thumb-hover: #525255;
+  --accent: #0a84ff;
+  --now-line: #ff453a;
+  --selection-slot-bg: rgba(10, 132, 255, 0.2);
+  --selection-table-bg: rgba(10, 132, 255, 0.15);
+  --search-bg: #0d0d0f;
+  --search-border: #2c2c2e;
+  --nav-btn-bg: #2c2c2e;
+  --nav-btn-border: #3a3a3c;
+  --nav-btn-bg-hover: #3a3a3c;
+  --nav-btn-border-hover: #48484a;
+  --event-shadow-hover: 0 4px 16px rgba(0, 0, 0, 0.5);
+
+  --event-order-new-accent: #2dd4bf;
+  --event-order-new-bg: rgba(26, 58, 54, 0.92);
+  --event-order-new-text: #e6f7f4;
+  --event-order-new-hover: rgba(32, 72, 66, 0.96);
+
+  --event-order-bill-accent: #7ddba5;
+  --event-order-bill-bg: rgba(28, 48, 36, 0.92);
+  --event-order-bill-text: #e8f8ee;
+  --event-order-bill-hover: rgba(34, 58, 44, 0.96);
+
+  --event-order-closed-accent: #7a8a94;
+  --event-order-closed-bg: rgba(38, 42, 50, 0.92);
+  --event-order-closed-text: #c8cdd4;
+  --event-order-closed-hover: rgba(48, 52, 60, 0.96);
+
+  --event-order-banquet-accent: #b565f7;
+  --event-order-banquet-bg: rgba(48, 28, 68, 0.92);
+  --event-order-banquet-text: #f0e4fc;
+  --event-order-banquet-hover: rgba(58, 34, 82, 0.96);
+
+  --event-res-live-accent: #4d9fff;
+  --event-res-live-bg: rgba(22, 38, 62, 0.92);
+  --event-res-live-text: #e8f2ff;
+  --event-res-live-hover: rgba(28, 48, 78, 0.96);
+
+  --event-res-booking-accent: #e8864a;
+  --event-res-booking-bg: rgba(52, 36, 24, 0.94);
+  --event-res-booking-text: #f5e8dc;
+  --event-res-booking-hover: rgba(62, 44, 30, 0.96);
+
+  --event-badge-blue-text: #7ec8ff;
+
+  --event-fallback-accent: #8e8e93;
+  --event-fallback-bg: rgba(44, 44, 46, 0.92);
+  --event-fallback-text: #ebebf0;
+  --event-fallback-hover: rgba(58, 58, 60, 0.96);
+}
+
+[data-theme='light'] {
+  --bg-app: #f2f2f7;
+  --bg-nav: #ffffff;
+  --search-bg: #f2f2f7;
+  --search-border: #d1d1d6;
+  --nav-btn-bg: #f2f2f7;
+  --nav-btn-border: #d1d1d6;
+  --nav-btn-bg-hover: #e5e5ea;
+  --nav-btn-border-hover: #c7c7cc;
+  --bg-chip: #e5e5ea;
+  --bg-chip-hover: #d8d8dd;
+  --bg-chip-active: #007aff;
+  --bg-grid: #ffffff;
+  --sticky-axis-bg: rgba(242, 242, 247, 0.9);
+  --text-primary: #000000;
+  --text-secondary: #8e8e93;
+  --text-muted: #aeaeb2;
+  --border: #d1d1d6;
+  --border-grid: #e5e5ea;
+  --scrollbar-size: 8px;
+  --scrollbar-track: #f2f2f7;
+  --scrollbar-thumb: #c7c7cc;
+  --scrollbar-thumb-hover: #aeaeb2;
+  --accent: #007aff;
+  --now-line: #ff3b30;
+  --selection-slot-bg: rgba(0, 122, 255, 0.15);
+  --selection-table-bg: rgba(0, 122, 255, 0.1);
+  --event-shadow-hover: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+  --event-order-new-accent: #0d9488;
+  --event-order-new-bg: rgba(204, 236, 232, 0.95);
+  --event-order-new-text: #134e48;
+  --event-order-new-hover: rgba(184, 226, 220, 0.98);
+
+  --event-order-bill-accent: #22c55e;
+  --event-order-bill-bg: rgba(220, 244, 228, 0.95);
+  --event-order-bill-text: #14532d;
+  --event-order-bill-hover: rgba(200, 234, 212, 0.98);
+
+  --event-order-closed-accent: #6b7280;
+  --event-order-closed-bg: rgba(232, 232, 237, 0.95);
+  --event-order-closed-text: #374151;
+  --event-order-closed-hover: rgba(220, 220, 228, 0.98);
+
+  --event-order-banquet-accent: #9333ea;
+  --event-order-banquet-bg: rgba(237, 224, 245, 0.95);
+  --event-order-banquet-text: #4c1d6e;
+  --event-order-banquet-hover: rgba(224, 208, 240, 0.98);
+
+  --event-res-live-accent: #2563eb;
+  --event-res-live-bg: rgba(219, 234, 254, 0.95);
+  --event-res-live-text: #1e3a5f;
+  --event-res-live-hover: rgba(199, 220, 252, 0.98);
+
+  --event-res-booking-accent: #ea580c;
+  --event-res-booking-bg: rgba(255, 237, 213, 0.95);
+  --event-res-booking-text: #7c2d12;
+  --event-res-booking-hover: rgba(254, 225, 198, 0.98);
+
+  --event-badge-blue-text: #007aff;
+
+  --event-fallback-accent: #8e8e93;
+  --event-fallback-bg: rgba(229, 229, 234, 0.95);
+  --event-fallback-text: #1c1c1e;
+  --event-fallback-hover: rgba(216, 216, 221, 0.98);
+}
